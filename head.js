@@ -5,8 +5,12 @@ const assertEqual = function(actual, expected) {
     console.log(`🚩🚩🚩 Assertion Failed: ${actual} !== ${expected}`)
   }
   };
-  
+
   const head = function(arr) {
-    actual = arr.slice(0, 1).shift();
+    //Takes first element of arr and stores it in actual variable
+    actual = arr[0]
     return actual
   }
+//TEST CODE
+  assertEqual(head([5,6,7]), 5);
+assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
