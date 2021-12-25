@@ -7,9 +7,10 @@ const eqArrays = function(arrOne, arrTwo) {
     }
     return false
   }
-  
-}
+};
 
 module.exports = eqArrays;
+
+
 
 

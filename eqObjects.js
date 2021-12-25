@@ -12,7 +12,6 @@ const assertEqual = function(actual, expected) {
 //Stores object keys of objOne and objTwo as an array in variables
 const arrOne = Object.keys(objOne);
 const arrTwo = Object.keys(objTwo);
-console.log(Object.keys(objOne))
 //Compares object length
 if (arrOne.length !== arrTwo.length)
 return false;
